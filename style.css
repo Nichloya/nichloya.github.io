@@ -1,6 +1,54 @@
 body {
-   margin: 20px;
+   background: url(bg.png);
+   font-family: "PT Mono", monospace;
 }
 
-.text {
+.window {
+   background: #f1f1f1;
+   border: solid 1px #868686;
+   border-radius: 3px;
+   box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.47);
+   margin: 30px auto;
+   max-width: 519px;
+}
+
+.titlebar {
+   background: #eff0f1;
+   border-top: solid 1.5px #ffffff;
+   border-bottom: solid 1px #868686;
+   border-radius: 3px 3px 0 0;
+   display: flex;
+   justify-content: center; /* Centers horizontally */
+}
+
+.title {   
+   font-family: sans-serif;
+   font-weight: 900;
+   font-size: small;
+   gap: 3px;
+   color: #333;
+   display: flex;
+   
+   align-items: center;
+
+   height: 24px;
+   padding: 1px 2px !important;
+}
+
+article {
+
+   padding: 17px;
+}
+
+footer {
+   border-top: solid 1px #868686;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.bor {
+   max-width: 519px;
 }
