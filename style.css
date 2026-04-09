@@ -50,5 +50,6 @@ footer {
 
 
 .bor {
-   max-width: 519px;
+   width: 100%;
+   object-fit: contain
 }
