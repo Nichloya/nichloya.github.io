@@ -1,6 +1,7 @@
 body {
+   background-color: #666;
    background: url(bg.png);
-   font-family: "PT Mono", monospace;
+   font-family: "Trebuchet MS", monospace;
 }
 
 .window {
